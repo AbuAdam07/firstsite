@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PT serif;
+    src: url(Montserrat/PTSerif-Regular.ttf);
+}
+
+.header {
+    box-sizing: border-box;
+   
+    background-image: url(img/Rectangle\ 1.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+.container{
+    box-sizing: border-box;
+    width: 1010px;
+    margin: 0 450px ;
+    
+}
+
+.topmenu {
+    padding:  40px 0 ;
+    margin-bottom: 104px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.automotive{
+    width: 293px;
+    height: 90px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color:#130E27;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 10px 10px;
+}
+li {
+    font-family: Montserrat;
+    display: inline-block;
+    list-style-type: none;
+    line-height: 22px;
+    font-size: 18px;
+    padding: 6px 15px ;
+    text-transform: uppercase;
+       
+  }
+
+
+.header__menu {
+    color: white;
+    height: 22px;
+    width: 526px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.big__text {
+
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: -1.8px;
+    line-height: 1;
+
+}
+.black {
+    margin: 0 auto;
+    color: #130E27;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 91.111% */
+    letter-spacing: -1.8px;
+}
+
+.white {
+    margin: 0 auto;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1.8px;
+}
+
+.medium__text {
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: PT serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+    padding-bottom: 180px;
+    padding-right: 400px;
+    
+    
+}
+.ourservices {
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 480px;
+}
+
+
+.text {
+    text-transform: uppercase;
+    color: #C62314;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-bottom: 80px;
+}
+
+.services{
+    color: #130E27;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 175px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 160px;
+    width: 160px;
+    flex-shrink: 0;
+}
+.fa {
+    color: #130E27;
+    display: inline-block;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+
+}
+
+.fa-lightbulb-o{
+padding:0 30px;
+}
+
+
+.logo_text {
+    color: #130E27;
+
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.6px;
+    height: 56px;
+    width: 165px;
+}
+
+.line {
+    box-sizing: border-box;
+    background-color: #130E27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1010px;
+    height: 124px;
+    margin: 0  450px;
+    padding-bottom: 40px;
+
+}
+.container2{
+    background-color: #130E27;
+
+}
+.logo_text2 {
+    width: 611px;
+    height: 56px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #C62314;
+    width: 270px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #C62314;
+    margin-top: 30px;
+    margin-left: 177px;
+}
+.our_story {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pricing {
+    background: #EFEFEF;
+}
+.pricing__teg {
+    margin-bottom: 50px;
+padding-top: 50px;
+    display: block;
+    text-align: center;
+    color: #130E27;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+.pricing__menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pricing__item {
+    border: 5px;
+    margin-left: 20px;
+    text-align: center;
+    width: 340px;
+    height: 460px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin-bottom: 70px;
+}
+.pricing_head {
+    margin-top: 35px;
+    color: #161616;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    letter-spacing: -0.66px;
+}
+.pricing__neck {
+    margin-top: 40px;
+    color: #C62314;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+.pricing__body {
+    margin-top: 30px;
+    color: #161616;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.6px;
+}
+.pricing__foot2 {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 205px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #C62314;
+    margin-top: 30px;
+    margin-left: 67px;
+    
+}
+.pricing__foot1 {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 205px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #130E27;
+    margin-top: 30px;
+    margin-left: 67px;
+    
+}
+.foot_text {
+    padding-top: 11px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer {
+
+}
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0  450px;
+}
+.footer__text {
+    padding-top: 81px;
+    padding-bottom: 81px;
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+}
+.footer_automotive {
+ 
+    padding-top: 61px;
+    width: 217.844px;
+    height: 68.405px;
+    flex-shrink: 0;
+}
+
+.auto2 {
+    color: #C62314;
+}
+
+.footer__text1{
+    color: white;
+}
+
+.footer__text2{
+    color: #C62314;
+}
